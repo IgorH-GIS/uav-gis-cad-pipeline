@@ -24,7 +24,9 @@ Scale Validation: Verified metric retention during the DXF export, confirming a 
 Data Hygiene & "By Layer" Inheritance: Resolved common GIS-to-CAD translation quirks where features retain hardcoded export colors. Processed the .dxf entities to enforce strict "By Layer" property inheritance, ensuring that architectural outlines and utility nodes automatically respond to the CAD layer manager. This resulted in a clean, standardized, and immediately deployable base map for civil engineers.
 
 Phase 3: PyQGIS Automation & Conditional Spatial Analysis
+
 <img width="587" height="420" alt="9" src="https://github.com/user-attachments/assets/d6fc6d57-6344-4323-9662-dfb671e00144" />
+
 
 To eliminate manual geoprocessing and expedite reporting, a custom Python script was developed using the PyQGIS API to perform simultaneous data extraction and conditional spatial analysis.
 
