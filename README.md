@@ -8,7 +8,6 @@ Coordinate Reference System: EPSG:32630 (WGS 84 / UTM zone 30N).
 Phase 1: Feature Extraction & Topologically Rigorous Digitization
 <img width="1919" height="843" alt="3" src="https://github.com/user-attachments/assets/d6826f12-08dc-4009-80ad-7d4aa026709d" />
 
-
 The initial phase focused on extracting actionable vector data from the raw UAV orthophoto.
 
 Topological Integrity: Digitized building footprints utilizing advanced snapping parameters. This ensured a strictly topologically correct vector layer with zero overlaps or gaps between adjacent terraced structures, critical for accurate downstream area calculations.
@@ -18,7 +17,6 @@ Relational Database Structuring: Centralized ground infrastructure assets (e.g.,
 Phase 2: Interoperability & CAD Standardization
 <img width="1883" height="820" alt="6" src="https://github.com/user-attachments/assets/1759872e-1638-4c52-8909-4b524e868950" />
 
-
 Translating spatial data into engineering environments requires strict adherence to industry drafting standards.
 
 Scale Validation: Verified metric retention during the DXF export, confirming a 1:1 absolute spatial scale (e.g., building facade dimensions exactly matching 9.92m in the CAD environment).
@@ -27,7 +25,6 @@ Data Hygiene & "By Layer" Inheritance: Resolved common GIS-to-CAD translation qu
 
 Phase 3: PyQGIS Automation & Conditional Spatial Analysis
 <img width="587" height="420" alt="9" src="https://github.com/user-attachments/assets/d6fc6d57-6344-4323-9662-dfb671e00144" />
-
 
 To eliminate manual geoprocessing and expedite reporting, a custom Python script was developed using the PyQGIS API to perform simultaneous data extraction and conditional spatial analysis.
 
